@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: ['Network','CS']
 category: 'Network'
-draft: true 
+draft: false 
 ---
 
 # OSI 7 Layer(OSI 7계층)
