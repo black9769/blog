@@ -2,7 +2,7 @@
 title: OSI 7 Layer
 published: 2024-06-14
 description: ''
-image: ''
+image: './OSI7Layer.png'
 tags: ['Network','CS']
 category: 'Network'
 draft: false 
@@ -34,7 +34,7 @@ HW를 학습하다보면 SW와 다르게 눈으로 데이터들이 이동하는�
 
 저는 개인적은 OSI 7 Layer가 네트워크의 80%는 차지하고 있다고 생각합니다. 그래서 매우매우 중요합니다.
 
-![Alt text](/src/assets/images/Network/OSI7Layer.png)
+![Alt text](./OSI7Layer.png)
 ---
 ## 1계층 - Physcial Layer(물리계층)
 - 데이터 구조: Bits(비트)
