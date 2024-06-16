@@ -1,5 +1,5 @@
 ---
-title: BOJ템플릿
+title: '[BOJ] BOJ템플릿'
 published: 2024-06-16
 description: ''
 image: ''

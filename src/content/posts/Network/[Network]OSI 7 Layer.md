@@ -1,5 +1,5 @@
 ---
-title: OSI 7 Layer
+title: '[Network]OSI 7 Layer'
 published: 2024-06-14
 description: ''
 image: './OSI7Layer/OSI7Layer.png'
