@@ -3,7 +3,7 @@ title: '[OS] Process(프로세스) '
 published: 2024-06-16
 description: ''
 image: ''
-tags: [OS, CS, Process]
+tags: [CS, OS, Process]
 category: 'Operating System'
 draft: false 
 ---
@@ -35,7 +35,7 @@ Program을 Source Code 상태로 저장해둔다는 의미는 "기억장치"에 
 # Detail
 
 ## PCB(Process Context/Control Block)
-![Alt text](./Process/process-control-block.png)
+![Alt text](./ProcessAsset/process-control-block.png)
 
 Process를 학습하다보면 Context, PCB와 같은 용어들이 나온다. PCB는 Context를 포함하고 있는 프로세스를 관리하는 데이터 structure다.
 상태전이가 일어나거나 CPU 스케듈링으로 프로세스를 전환하는 과정에서 프로세스의 실행 정보를 저장하고 관리하는 Block이라고 볼수 있다.
@@ -78,7 +78,7 @@ Process를 학습하다보면 Context, PCB와 같은 용어들이 나온다. PCB
 
 ---
 ## Process Status (5가지 상태)
-![Alt text](./Process/process_state.png)
+![Alt text](./ProcessAsset/process_state.png)
 
 ### New (생성)
 Process가 생성된 상태이며 아직 실행 준비가 되지 않아, OS에서 초기화 중이다.
@@ -133,7 +133,7 @@ OS가 프로세슬르 관리할때 Process가 다양한 상태를 전환하게 �
 
 메모리 구조는 프로그램이 실행될 때 OS할당 받는 메모리 Layout을 의미한다. 그리고 이를 Segment로 나눌 수 있다.
 
-![Alt text](./Process/process_structure.png)
+![Alt text](./ProcessAsset/process_structure.png)
 ```
 +--------------------+
 | Command-Line Args  |
