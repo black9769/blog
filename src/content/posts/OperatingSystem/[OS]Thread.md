@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: [CS, OS, Thread]
 category: 'Operating System'
-draft: true 
+draft: false 
 ---
 
 # Thread란?
