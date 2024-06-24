@@ -11,7 +11,7 @@ draft: false
 # Thread란?
 
 ## 개요
-이전 포스팅에서 [Process]("https://black9769.github.io/blog/posts/operatingsystem/os-processs/")에 대한 설명을 알아봤다.  
+이전 포스팅에서 [Process](/blog/posts/operatingsystem/os-processs/)에 대한 설명을 알아봤다.  
 자주 나오는 면접 질문중에 용어를 비교하는 질문이 많이 나온다.  
 
 **Process VS. Thread**  
