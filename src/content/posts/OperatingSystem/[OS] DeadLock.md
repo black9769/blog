@@ -24,7 +24,7 @@ draft: false
 ## DeadLock의 조건
 
 우리가 교착상태를 이야기 할때는 총 4가지의 필요조건이 전부 만족해야 교착상태가 일어난다.
-1. 상호배제
+1. [상호배제](/blog/posts/operatingsystem/os-process-synchronization/)
 2. 점유대기
 3. 비선점
 4. 순환대기
