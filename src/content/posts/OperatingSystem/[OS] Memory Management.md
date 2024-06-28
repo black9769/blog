@@ -3,8 +3,8 @@ title: "[OS] Memory Management"
 published: 2024-06-27
 description: ''
 image: ''
-tags: []
-category: ''
+tags: [CS, OS, Process, Memory]
+category: 'Operating System'
 draft: false 
 ---
 # 개요
