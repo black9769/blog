@@ -4,8 +4,8 @@ published: 2024-07-03
 description: ''
 image: ''
 tags: [CS, OS,Interview]
-category: 'Network'
-draft: false 
+category: 'OS'
+draft: true 
 ---
 #### 페이징과 세그멘테이션의 차이점에 대해 설명하시오.
 > ⭐ 모범답안
