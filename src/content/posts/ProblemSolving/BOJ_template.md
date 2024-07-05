@@ -18,7 +18,34 @@ draft: true
 
 ## 코드🖥️
 ```cpp
+#include <iostream>
 
+using namespace std;
+
+int k, n;
+
+int money[11] = { 0, };
+
+int main() {
+	cin >> k >> n;
+		
+	for (int i = k - 1; i >= 0; i--) {
+		cin >> money[i];
+	}
+
+	int cnt = 0;
+
+	for (int i = 0; i < k; i++) {
+		if (n >= money[i]) {
+			cnt += n / money[i];
+			n %= money[i];
+		}
+	}
+
+	cout << cnt;
+
+	return 0;
+}
 ```
 
 ---
