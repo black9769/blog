@@ -4,7 +4,7 @@ published: 2024-07-04
 description: ''
 image: ''
 tags: []
-category: ''
+category: 'Algorithm'
 draft: false 
 ---
 # Dijkstra's algorithm
