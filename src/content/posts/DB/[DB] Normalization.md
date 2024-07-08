@@ -4,7 +4,7 @@ published: 2024-07-02
 description: ''
 image: ''
 tags: [CS, DB, Normalization]
-category: 'DB'
+category: 'DataBase'
 draft: false 
 ---
 # 개요
