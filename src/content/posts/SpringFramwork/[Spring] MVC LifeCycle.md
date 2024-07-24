@@ -41,14 +41,14 @@ Spring Framework의 대표적인 패턴중에는 MVC패턴이 있다.
    `DispatcherServlet`은 요청 URL 기반으로 적절한 `Controller`를 찾기 위해 `Handler Mapping`을 사용하게 된다. `Handler Mapping`은 요청 URL와 `Controller를 Mapping`한다
 4. Handler Adapter  
    `DispatcherServlet`은 Controller를 Handler Mapping을 통해 찾았고 `Handler Adapter를 사용하여 요청을 실제로 처리할 Controller Methods를 호출`한다.  즉, `HandlerAdapter`는 컨트롤러 메서드가 올바르게 호출되도록 중개 역할을 합니다.
-5. Controller
+5. Controller  
     `Handler Adapter`는 매핑된 `Controller methods` 호출하고, `Controller`는 비즈니스로직을 수행하여 `Model Data`를 준비한다.
    또한, `Controller`에 의해 처리된 `Model Data`를 `View 이름`과 함께 반환한다.
-6. View Resolver
+6. View Resolver  
    `DispatcherServlet`은 `View Resolver`를 사용하여 `Controller`가 반환한 `View 이름`을 실제 View 객체로 변환한다. `View Resolver`는 View의 물리적인 위치를 찾기 위해 이름을 사용한다.
-7. View
+7. View  
     반환된 View 객체는 `Model Data`와 함께 사용자에게 표시할 결과를 랜더링한다.
-8. 서버 응답
+8. 서버 응답  
     랜더링된 `View`는 최종적으로 HTML이나 JSON 양식으로 변환되어 클라이언트의 요청에 응답으로 전송이 된다.
 
 즉, 순서를 단위별로 요약하면  
