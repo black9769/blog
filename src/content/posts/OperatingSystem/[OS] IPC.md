@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: [CS, OS, Process]
 category: 'Operating System'
-draft: false 
+draft: true 
 ---
 # IPC(Inter Process Comunication)
 

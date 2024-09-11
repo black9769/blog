@@ -5,7 +5,7 @@ description: ''
 image: ''
 tags: [CS, 'Coupling' , 'Cohesion', 'OOP']
 category: 'Object-Oriented Programming'
-draft: false 
+draft: true 
 ---
 # 개요
 
